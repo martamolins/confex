@@ -1,0 +1,32 @@
+{
+    "Type": "Simulation",
+    "Name": "MD", 
+    "Structure_name" : "",
+    "Time": 20000, 
+    "stepsize": 0.002, 
+    "Conformations": 1000,
+    "Temperature": [300], 
+    "Pressure": 1, 
+    "Force_Field": 
+        {
+            "Force_Field_name": "amber99sb.xml", 
+            "Water_Model": "tip3p.xml"
+        }, 
+    "Integrator": "", 
+    "Input_address": "", 
+    "Output_address": ""
+    
+}
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            

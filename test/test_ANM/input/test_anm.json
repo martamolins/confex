@@ -1,0 +1,43 @@
+{
+    "Simulation": 
+        {
+            "Name": ["MD"], 
+            "Time": 0.04, 
+            "stepsize": 0.002, 
+            "Temperature": [300], 
+            "Pressure": 1, 
+            "Force_Field": 
+                {
+                    "Force_Field_name": "amber14-all.xml", 
+                    "Water_Model": "amber14/tip3pfb.xml"
+                }, 
+            "Integrator": "", 
+            "N_conf": 5,
+            "Input_address": "", 
+            "Output_address": "",
+            "Analysis":
+                 {
+                     "Name": []
+                 } 
+        }, 
+    "Analysis": 
+        {
+            "Name": [""],
+            "Input_address": ""
+        }
+    
+}
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            

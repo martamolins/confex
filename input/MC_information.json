@@ -1,0 +1,35 @@
+{
+    "Type": "Simulation",
+    "Name": "P", 
+    "Structure_name" : "",
+    "stepsize": 0.002, 
+    "Temperature": [300], 
+    "Pressure": 1, 
+    "N_conf": 500,
+    "Force_Field": 
+        {
+            "Force_Field_name": "amber14-all.xml", 
+            "Water_Model": "amber14/tip3pfb.xml"
+        }, 
+    "Integrator": "", 
+    "Input_address": "", 
+    "Output_address": "",
+    "SCWRL_BIN": "",
+    "RMSD": 0.4,
+    "Tolerance": 30
+        
+}
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            

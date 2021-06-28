@@ -1,0 +1,25 @@
+{
+    "Type": "Simulation",
+    "Name": "ANM", 
+    "Structure_name" : "",
+    "N_conf": 1000,
+    "RMSD": 0.8,
+    "Input_address": "", 
+    "Output_address": ""
+      
+    
+}
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            

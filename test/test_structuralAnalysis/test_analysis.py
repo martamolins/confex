@@ -26,9 +26,7 @@ class TestAnalysis(unittest.TestCase):
         1.53525086, 1.61125903, 1.6314651 , 1.60818587, 1.60225947,
         1.65572109, 1.6007152 , 1.75948687, 1.7378134 , 1.69665129])
         
-       
-        # if os.path.isfile(os.getcwd()+'/test/test_structuralAnalysis/output/Trajectory_ANM.pdb'):
-        #     os.remove(os.getcwd()+'/test/test_ANM/output/Trajectory_ANM.pdb') 
+
         A = SAnalysis(Information)
         rmsds = A.RMSD()
         
@@ -51,10 +49,7 @@ class TestAnalysis(unittest.TestCase):
        0.45873884, 0.45554263, 0.43154487, 0.49920721, 0.54229234,
        1.00049586, 1.01845807, 0.74509023, 0.53481202, 0.56786323])
         
-        # with open('/home/marta/Documentos/TFM/ProgramaTFM/test/test_structuralAnalysis/input/test_analysis.json') as file:
-        #     Information = json.load(file)
-        # if os.path.isfile('/home/marta/Documentos/TFM/ProgramaTFM/test/test_structuralAnalysis/output/Trajectory_ANM.pdb'):
-        #     os.remove('/home/marta/Documentos/TFM/ProgramaTFM/test/test_ANM/output/Trajectory_ANM.pdb') 
+
         A = SAnalysis(Information)
         rmsfs = A.RMSF()
         
